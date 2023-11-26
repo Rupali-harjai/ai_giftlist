@@ -1,13 +1,355 @@
+/* Common css */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif !important;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+ul {
+  padding-left: 0px !important;
+}
+ul li {
+  list-style: none;
+  font-weight: 400;
+  padding: 5px 0px;
+}
+.gift_btn {
+  background: linear-gradient(to right, #50bcd9 0%, #f14dff 100%);
+  border-radius: 7px;
+  padding: 8px 16px 8px 8px;
+  z-index: 0;
+  color: #fff !important;
+}
+.gift_btn svg {
+  margin-right: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* start header */
+.navbar {
+  background: #f9f9f9;
+  padding: 16px 0px 16px 0px !important;
+}
+.navbar-brand {
+  color: #101a34;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 30px !important;
+}
+
+.navbar-brand span {
+  font-weight: 300;
+}
+.navbar-nav a {
+  color: #101a34;
+  font-weight: 600;
+  padding: 0px 16px 0px 16px;
+  font-family: "Poppins", sans-serif !important;
+  display: flex;
+  align-items: center;
+  margin: 0px 3px;
+}
+.navbar-nav span.gift_btn {
+  background: linear-gradient(to right, #50bcd9 0%, #f14dff 100%);
+  border-radius: 7px;
+  padding: 8px 16px 8px 8px;
+  letter-spacing: 2px;
+  z-index: 0;
+}
+.navbar-nav a span.sign_up {
+  background-color: #101a34;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+/* end header */
+
+/* recipient form */
+form {
+  display: block;
+  max-width: 45%;
+  margin: 72px auto;
+}
+.recipient_container h2 {
+  color: #101a34;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+.recipient_container label {
+  color: #101a34;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.recipient_container input,
+.recipient_container textarea,
+.recipient_container select {
+  border-radius: 7px;
+  border: 1px solid #cad3dd;
+  background: #fff;
+  display: flex;
+  padding: 12px 16px;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.recipient_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.recipient_container label {
+  margin-bottom: 15px;
+}
+.recipient_container label,
+.recipient_container input,
+.recipient_container select,
+.recipient_container textarea {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.recipient_container label span {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.recipient_container label .suffix_info {
+  display: flex;
+  gap: 10px;
+}
+.recipient_container label input[type="number"] {
+  display: flex;
+  width: 20%;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.recipient_container .suffix {
+  color: #101a34;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  margin-left: 10px;
+  width: 80%;
+  align-items: center;
+}
+.recipient_container span.suffix.usd {
+  width: 20%;
+  border-radius: 7px;
+  border: 1px solid #cad3dd;
+  background: #fff;
+  text-align: center;
+  justify-content: center;
+}
+.recipient_container span.suffix-info input[type="number"] {
+  width: 30%;
+}
+.recipient_container .gender-options {
+  display: flex;
+  gap: 10px;
+  width: 90%;
+}
+.recipient_container .gender-options label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fafbfd;
+  border-radius: 7px;
+  border: 1px solid #e8ecf1;
+  margin-bottom: 0px;
+}
+
+.recipient_container .gender-options label input[type="radio"] {
+  margin-right: 10px;
+}
+
+.btns {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  width: 80%;
+  margin: 10px 0px;
+}
+.recipient_container .btns .btn {
+  border-radius: 7px;
+  border: 1px solid #cad3dd;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  width: 90%;
+}
+.recipient_container .btns .btn.back {
+  color: #0f7b9b;
+  background: #fafbfd;
+}
+.recipient_container .btns .btn.continue {
+  background: #50bcd9;
+  color: #fff;
+}
+.recipient_container .steps {
+  color: #5e6577;
+  font-weight: 400;
+}
+/* end of form */
+
+/* start giftlist */
+.giftlist_container {
+  margin: 70px 0px;
+}
+h1 span.giftlist_genie {
+  background: linear-gradient(90deg, #50bcd9 0%, #f14dff 31.58%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.giftlist_text {
+  color: #5e6577;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 24px;
+  font-weight: 400;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.giftlist_info {
+  border: 1px solid #cad3dd;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  gap: 10px;
+}
+.giftlist_info span {
+  border-radius: 36px;
+  background: linear-gradient(90deg, #50bcd9 -1.32%, #f14dff 111.06%);
+  display: flex;
+  align-items: center;
+}
+.giftlist_svg {
+  padding: 6px;
+}
+.giftlist_container h6 {
+  font-size: 16px;
+  color: #5e6577;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+.giftlist_container h6 span {
+  color: #50bcd9;
+}
+.giftlist_container hr {
+  background: #e8ecf1;
+  height: 1px;
+  width: 90%;
+  margin: 50px auto;
+}
+.giftlist_container .btn_showmore {
+  color: #50bcd9;
+  font-size: 17px;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+}
+.giftlist_heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 30px 0px;
+}
+.giftlist_container .row {
+  margin: 60px 0px;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card img {
+  padding: 15px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.product_heading {
+  margin: 40px 0px;
+  text-align: center;
+}
+/* end giftlist */
+
+/* loading_content */
+.loading_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+/* start Footer */
+.footer {
+  background: #22222a;
+  padding: 20px;
+  align-items: center;
+  color: #fff;
+}
+.footer p {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+.footer .navbar-brand {
+  color: #fff !important;
+}
+
+.footer .btns button {
+  background: #fff;
+  color: #21201f;
+  height: 40px;
+  padding: 8px 24px;
+
+  gap: 10px;
+  align-self: stretch;
+}
+.footer .btns button.sign-up {
+  background-color: #50bcd9;
+  color: #fff;
+}
+/* end footer */
+
+/* media query */
+@media (max-width: 1024px) {
+  form {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-nav a {
+    font-size: 13px;
+    padding: 2px 0px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    height: 400px !important;
+  }
+  .footer {
+    padding: 80px 120px;
+  }
 }

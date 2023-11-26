@@ -1,0 +1,355 @@
+{
+    "beautifulProducts": [
+      {
+        "image": "../images/product1.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+        "image": "../images/product2.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      }, 
+      {
+        "image": "../images/product3.png",
+        "subtitle": "1000 and 1 flowerse",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      }, 
+      {
+        "image": "../images/product4.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600"
+      }, 
+      {
+        "image": "../images/product5.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+       {
+        "image": "../images/product1.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+        "image": "../images/product2.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+        "image": "../images/product3.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      }
+    
+    ],
+    "toyProducts": [
+      {
+        
+          "image": "../images/product1.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product2.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product3.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+       {
+        "image": "../images/product4.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+      "image": "../images/product5.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+        "image": "../images/product1.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product2.png",
+            "subtitle": "1000 and 1 flowers",
+            "title": "Beautiful bouquet",
+            "price": "530",
+            "typicalPriceRange": "$100-$600",
+            "rating": 4.5,
+            "starsGiven": 457
+          },  {
+            "image": "../images/product3.png",
+              "subtitle": "1000 and 1 flowers",
+              "title": "Beautiful bouquet",
+              "price": "530",
+              "typicalPriceRange": "$100-$600",
+              "rating": 4.5,
+              "starsGiven": 457
+            }, 
+             {
+              "image": "../images/product4.png",
+                "subtitle": "1000 and 1 flowers",
+                "title": "Beautiful bouquet",
+                "price": "530",
+                "typicalPriceRange": "$100-$600",
+                "rating": 4.5,
+                "starsGiven": 457
+              },
+              {
+                "image": "../images/product5.png",
+                  "subtitle": "1000 and 1 flowers",
+                  "title": "Beautiful bouquet",
+                  "price": "530",
+                  "typicalPriceRange": "$100-$600",
+                  "rating": 4.5,
+                  "starsGiven": 457
+                }
+ 
+    ],
+    "babisProducts": [
+      {
+        
+          "image": "../images/product1.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product2.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product3.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+       {
+        "image": "../images/product4.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+      "image": "../images/product5.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+        "image": "../images/product1.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product2.png",
+            "subtitle": "1000 and 1 flowers",
+            "title": "Beautiful bouquet",
+            "price": "530",
+            "typicalPriceRange": "$100-$600",
+            "rating": 4.5,
+            "starsGiven": 457
+          },  {
+            "image": "../images/product3.png",
+              "subtitle": "1000 and 1 flowers",
+              "title": "Beautiful bouquet",
+              "price": "530",
+              "typicalPriceRange": "$100-$600",
+              "rating": 4.5,
+              "starsGiven": 457
+            }, 
+             {
+              "image": "../images/product4.png",
+                "subtitle": "1000 and 1 flowers",
+                "title": "Beautiful bouquet",
+                "price": "530",
+                "typicalPriceRange": "$100-$600",
+                "rating": 4.5,
+                "starsGiven": 457
+              },
+              {
+                "image": "../images/product5.png",
+                  "subtitle": "1000 and 1 flowers",
+                  "title": "Beautiful bouquet",
+                  "price": "530",
+                  "typicalPriceRange": "$100-$600",
+                  "rating": 4.5,
+                  "starsGiven": 457
+                }
+ 
+    ],
+    "electronicProducts": [
+      {
+        
+          "image": "../images/product1.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product2.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product3.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+       {
+        "image": "../images/product4.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+      "image": "../images/product5.png",
+        "subtitle": "1000 and 1 flowers",
+        "title": "Beautiful bouquet",
+        "price": "530",
+        "typicalPriceRange": "$100-$600",
+        "rating": 4.5,
+        "starsGiven": 457
+      },
+      {
+        "image": "../images/product1.png",
+          "subtitle": "1000 and 1 flowers",
+          "title": "Beautiful bouquet",
+          "price": "530",
+          "typicalPriceRange": "$100-$600",
+          "rating": 4.5,
+          "starsGiven": 457
+        },
+        {
+          "image": "../images/product2.png",
+            "subtitle": "1000 and 1 flowers",
+            "title": "Beautiful bouquet",
+            "price": "530",
+            "typicalPriceRange": "$100-$600",
+            "rating": 4.5,
+            "starsGiven": 457
+          },  {
+            "image": "../images/product3.png",
+              "subtitle": "1000 and 1 flowers",
+              "title": "Beautiful bouquet",
+              "price": "530",
+              "typicalPriceRange": "$100-$600",
+              "rating": 4.5,
+              "starsGiven": 457
+            }, 
+             {
+              "image": "../images/product4.png",
+                "subtitle": "1000 and 1 flowers",
+                "title": "Beautiful bouquet",
+                "price": "530",
+                "typicalPriceRange": "$100-$600",
+                "rating": 4.5,
+                "starsGiven": 457
+              },
+              {
+                "image": "../images/product5.png",
+                  "subtitle": "1000 and 1 flowers",
+                  "title": "Beautiful bouquet",
+                  "price": "530",
+                  "typicalPriceRange": "$100-$600",
+                  "rating": 4.5,
+                  "starsGiven": 457
+                }
+ 
+    ]
+  }
+  
